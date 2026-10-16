@@ -1,39 +1,10 @@
-# Secretos y configuración local
+# Configuración privada y temporales
 .env
 .env.*
 !.env.example
-*.pem
-*.key
-
-# Entornos y archivos generados de Python
-.venv/
-venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-
-# Dependencias y resultados de compilación
-node_modules/
-build/
-dist/
-
-# Archivos temporales de editores y documentos
-.vscode/
-.idea/
 ~$*
 *.tmp
 *.bak
-*.aux
-*.log
-*.out
-*.toc
-*.synctex.gz
-
-# Sistema operativo
 .DS_Store
 Thumbs.db
 Desktop.ini
-
-# Datos locales: conservar solo su guía
-/datos/local/*
-!/datos/local/README.md
